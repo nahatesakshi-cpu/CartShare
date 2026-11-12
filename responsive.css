@@ -1,0 +1,233 @@
+@media (max-width: 1100px) {
+  .app-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    padding-bottom: 18px;
+  }
+
+  .side-nav {
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 8px;
+  }
+
+  .nav-link {
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .main-panel {
+    padding-top: 18px;
+  }
+}
+
+@media (max-width: 760px) {
+  .stats-grid,
+  .dashboard-grid,
+  .room-wrapper,
+  .grid-two,
+  .grid-three {
+    grid-template-columns: 1fr;
+  }
+
+  .topbar,
+  .panel-header,
+  .room-header,
+  .split-header,
+  .inline-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .toolbar {
+    width: 100%;
+  }
+
+  .toolbar input,
+  .toolbar select {
+    width: 100%;
+  }
+
+  .main-panel {
+    padding: 18px 14px 28px;
+  }
+
+  .auth-card {
+    padding: 18px;
+  }
+
+  .receipt-head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 460px) {
+  .auth-screen {
+    padding: 16px;
+  }
+
+  .brand-wrap {
+    gap: 10px;
+  }
+
+  .brand-mark {
+    width: 48px;
+    height: 48px;
+    font-size: 1.6rem;
+  }
+
+  .sidebar {
+    padding: 20px 14px;
+  }
+
+  .profile-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 1100px) {
+  .app-shell {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .sidebar {
+    position: relative;
+    top: auto;
+    height: auto;
+    min-width: 0;
+    min-height: 0;
+    gap: 16px;
+    padding: 18px 22px 14px;
+  }
+
+  .side-nav {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .sidebar-brand {
+    padding-bottom: 14px;
+  }
+
+  .side-nav {
+    padding-bottom: 3px;
+  }
+
+  .nav-link {
+    min-height: 42px;
+  }
+
+  .profile-card {
+    margin-top: 0;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .main-panel {
+    min-width: 0;
+    padding: 24px clamp(18px, 4vw, 36px) 40px;
+  }
+}
+
+@media (max-width: 760px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .main-panel {
+    padding: 20px 16px 32px;
+  }
+
+  .topbar {
+    align-items: flex-start;
+  }
+
+  .topbar-actions,
+  .topbar-actions .ghost-btn {
+    width: 100%;
+  }
+
+  .topbar-actions .ghost-btn {
+    justify-content: center;
+  }
+
+  .stats-grid {
+    gap: 10px;
+  }
+
+  .stat-card {
+    min-height: 108px;
+    padding: 14px;
+    gap: 10px;
+  }
+
+  .stat-icon {
+    width: 40px;
+    height: 40px;
+    flex-basis: 40px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+  }
+
+  .stat-card p {
+    font-size: 0.74rem;
+  }
+
+  .panel-card {
+    padding: 17px;
+  }
+
+  .toolbar {
+    align-items: stretch;
+  }
+}
+
+@media (max-width: 460px) {
+  .sidebar {
+    padding: 16px 14px 12px;
+  }
+
+  .side-nav {
+    gap: 5px;
+  }
+
+  .nav-link {
+    gap: 7px;
+    padding: 9px 10px;
+    font-size: 0.82rem;
+  }
+
+  .main-panel {
+    padding: 18px 12px 28px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .stat-card {
+    align-items: flex-start;
+    flex-direction: column;
+    min-height: 125px;
+  }
+
+  .stat-card h3 {
+    font-size: 1.35rem;
+  }
+
+  .profile-card {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .room-code-box {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
